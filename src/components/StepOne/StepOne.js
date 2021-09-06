@@ -25,7 +25,6 @@ const StepOne = () => {
       alert('Senhas diferentes');
   }else{
     setCurrentScreen("StepTwo")
-    console.log("userData", userData)
   } 
   }
 
@@ -61,7 +60,7 @@ const StepOne = () => {
         <ButtonNext >Avançar</ButtonNext>
         
     </ContainerForm>
-    <ButtonFinish>Complete o cadastro</ButtonFinish>
+    <ButtonFinish>Conclua cadastro</ButtonFinish>
     </div>
   )
 }

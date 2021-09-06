@@ -22,7 +22,6 @@ const StepThree = () => {
     if(changeButton === "Waiting"){
       setChanbutton("Done")
     }
-    console.log("userData", userData)
   }
 
   const onClickSubmite = () => {
@@ -31,7 +30,7 @@ const StepThree = () => {
 
   let renderButton = () => {
     if(changeButton === "Waiting"){
-      return <ButtonFinish>Complete o cadastro</ButtonFinish>
+      return <ButtonFinish>Conclua cadastro</ButtonFinish>
     }else{
       return <ButtonSubmite onClick={onClickSubmite} >Enviar</ButtonSubmite>
     }

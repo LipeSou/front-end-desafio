@@ -17,7 +17,6 @@ const StepTwo = () => {
   const registerStep = (event) => {
     event.preventDefault()
     setCurrentScreen("StepThree")
-    console.log("useData", userData)
   }
 
   return (
@@ -48,7 +47,7 @@ const StepTwo = () => {
         />
         <ButtonNext>Avançar</ButtonNext>
       </ContainerForm>
-      <ButtonFinish>Enviar</ButtonFinish>
+      <ButtonFinish>Conclua cadastro</ButtonFinish>
     </div>
   )
 }

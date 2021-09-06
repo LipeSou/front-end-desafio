@@ -14,7 +14,6 @@ import { goToCatScreen, goToFormScreen } from '../../routes/coordinator'
 const Header = () => {
   const history = useHistory()
   const { pathname } = useLocation()
-    console.log(pathname)
   
   let RenderMenu = () => {
     
@@ -26,7 +25,7 @@ const Header = () => {
             <CurrentButton 
               onClick={() => goToCatScreen(history)}
               >
-                Lista de ids
+                Lista de gatos
             </CurrentButton>
           </CatContainer>
           <div>
@@ -45,7 +44,7 @@ const Header = () => {
             <InactiveButton 
               onClick={() => goToCatScreen(history)}
               >
-                Lista de ids
+                Lista de gatos
             </InactiveButton>
           </CatContainer>
           <div>
@@ -64,7 +63,7 @@ const Header = () => {
               <CurrentButton 
                 onClick={() => goToCatScreen(history)}
                 >
-                  Lista de ids
+                  Lista de gatos
               </CurrentButton>
             </CatContainer>
             <div>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primaryColor, secundaryColor, tertiaryColor } from "../../constants/color";
+import {  secundaryColor, tertiaryColor } from "../../constants/color";
 
 
 export const ContainerForm = styled.form`
